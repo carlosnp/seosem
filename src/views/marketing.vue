@@ -1,23 +1,65 @@
 <template>
-  <v-layout row wrap justify-space-around py-5>
-  <v-flex xs12 sm6>
-  	<v-flex xs12 class="font-light-italic text-uppercase" tag="h1">
-      <div class="text-xs-center"> Algunas Definiciones de Marketing </div>
-    </v-flex>
-  <v-carousel height="320" class="text-md-center" interval="10000" hide-delimiters>
-    <v-carousel-item v-for="item in mark" :key="item.text" :src="item.text" >
-    	<v-layout align-center justify-center row fill-height>
-    	<v-card flat color="blue-green darken-1" class="white--text" height="320" width="550">
-    		<v-card-title> {{ item.time }} </v-card-title>
-    		<v-card-text> 
-    			<div class="headline"> "{{ item.text }}" </div>
-    			<div class="blue--text"> {{ item.autor }} </div> 
-    		</v-card-text>
-    	</v-card>
-    	</v-layout>
-    </v-carousel-item>
-  </v-carousel>
-	</v-flex>
+	<v-layout row wrap justify-space-around>
+		
+			<v-flex xs12 class="font-light-italic text-uppercase py-3 light-green accent-3" tag="h1">
+				<div class="text-xs-center"> Algunas Definiciones de Marketing </div>
+			</v-flex>
+
+			<v-carousel height="420" class="text-md-center" interval="10000" hide-delimiters>
+				<v-carousel-item v-for="item in mark" :key="item.text" :src="item.text" >
+					<v-layout align-center justify-center row fill-height>
+						<v-card flat color="blue-green darken-1" class="white--text" height="420" max-width="95%">
+							<v-card-title> {{ item.time }} </v-card-title>
+							<v-card-text>
+								<v-layout align-center column fill-height>
+									<div class="display-2"> "{{ item.text }}" </div>
+									<div class="blue--text headline"> {{ item.autor }} </div> 
+								</v-layout> 
+							</v-card-text>
+						</v-card>
+					</v-layout>
+				</v-carousel-item>
+			</v-carousel>
+
+			<v-flex xs12 class="font-light-italic text-uppercase py-3 light-green accent-3" tag="h1">
+				<div class="text-xs-center"> Preguntas que debe responder Marketing </div>
+			</v-flex>
+			<v-flex xs12>
+			<v-expansion-panel expand focusable>
+				<v-expansion-panel-content v-for="question in questions" :key="question.title">
+				<!-- Titulo -->
+					<div class="text-uppercase display-1" slot="header">¿{{question.title}}?</div>
+					<v-card>
+						<v-card-text class="px-4 grey--text">
+						<!-- Contenido del proyecto -->
+						<div class="blue--text headline">{{question.content}}</div>
+						</v-card-text>
+					</v-card>
+				</v-expansion-panel-content>
+			</v-expansion-panel>
+			</v-flex>
+
+			<v-flex xs12 class="font-light-italic text-uppercase py-3 light-green accent-3" tag="h1">
+				<div class="text-xs-center"> Antes de comenzar una campaña de Marketing </div>
+			</v-flex>
+			<v-flex xs12 sm8>
+			<v-expansion-panel expand focusable>
+				<v-expansion-panel-content v-for="question in marketing" :key="question.title">
+				<!-- Titulo -->
+					<div class="text-uppercase display-1" slot="header">¿{{question.title}}?</div>
+					<v-card>
+						<v-card-text class="px-4 grey--text">
+						<!-- Contenido del proyecto -->
+						<div class="blue--text headline">{{question.content}}</div>
+						</v-card-text>
+					</v-card>
+				</v-expansion-panel-content>
+			</v-expansion-panel>
+			</v-flex>
+
+			<v-flex xs12 sm6>
+			</v-flex>
+
 	</v-layout>
 </template>
 
@@ -62,8 +104,58 @@
 						autor: 'Philip Kotler'
 					}
 				],
-				questions: ['qué', 'quién', 'cómo', 'dónde', 'cuándo', 'por qué'],
-				items: ['que producto voy a vender, que caracteristicas tiene y porque es interesante', 'a quien se lo voy a vender, publico suceptible de consumirlo', 'como lo voy hacer, que herramientas de comunicacion', 'Medios en donde lo voy a colocar', 'durante cuanto tiempo', 'caracateristicas del producto, para que va a servir'],
+				questions: [
+					{
+						title: 'qué',
+						content:'que producto se va a vender'
+					},
+					{
+						title: 'quién',
+						content:'publico suceptible'
+					},
+					{
+						title: 'cómo',
+						content:'medios que se utilizaran'
+					},
+					{
+						title: 'dónde',
+						content:''
+					},
+					{
+						title: 'cuándo',
+						content:'periodo de tiempo'
+					},
+					{
+						title: 'por qué',
+						content:'el producto es interesante, que caracteristicas tiene'
+					},
+				],
+				marketing: [
+					{
+						title: '¿Qué debemos tener en cuenta para definir una estrategia de marketing digital?',
+						content: 'A los Usuarios, Objetivos(concretos, inequívocos, medibles y orientados a negocio), Recursos(humanos, economicos y materiales), Ejecusion(talento y conocimiento de los implicados en el proyecto) y Contexto(el mercado, el entorno, los competidores...)'
+					},
+					{
+						title: '¿Qué define un buen plan de marketing digital?',
+						content: ''
+					},
+					{
+						title: '¿Cuáles son las tendencias actuales en marketing digital?',
+						content: ''
+					},
+					{
+						title: '¿Cómo convertir nuestros usuarios en clientes?',
+						content: ''
+					},
+					{
+						title: '¿Qué parámetros hay que tener en cuenta para analizar usuarios?',
+						content: ''
+					},
+					{
+						title: '',
+						content: ''
+					},
+				]
 			}
 		}
 	}
@@ -71,10 +163,6 @@
 
 <style scoped>
 .carousel {
-  height: 200px !important; 
-}
-#question {
-	background-color: blue; 
-}
-	
+  height: 300px !important; 
+}	
 </style>

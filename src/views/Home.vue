@@ -5,7 +5,8 @@
       Bienvenidos al mini Taller de SEO y SEM
     </v-flex>
 
-    <v-flex xs12 md4 py-2>
+
+    <!-- <v-flex xs12 md4 py-2>
       <v-card height="300">
         <v-card-actions>
           <v-btn block class="info headline" to="/marketing"> Marketing Digital</v-btn>
@@ -13,10 +14,10 @@
         <v-card-title class="text-xs-center font-weight-black">
           </v-card-title>
         <v-card-text class="subheading">
-          Es la aplicación de las estrategias de comercialización llevadas a cabo en los medios digitales. Todas las técnicas del mundo off-line son imitadas y traducidas a un nuevo mundo, el mundo online. En el ámbito digital aparecen nuevas herramientas como la inmediatez, las nuevas redes que surgen día a día, y la posibilidad de mediciones reales de cada una de las estrategias empleadas. 
+          Se refiere a una amplia categoría de publicidad que toma muchas formas diferentes, pero generalmente involucra cualquier actividad de marketing realizada en línea. Los mercadólogos han cambiado sus esfuerzos en línea porque tiende a ser significativamente menos costoso. Muchos espacios publicitarios en línea son de uso gratuito. Las empresas pueden subir videos a Youtube o iniciar un blog sin costo alguno. Otros medios como los sitios web oficiales o el marketing de búsqueda pagado cuestan una fracción de lo que costaría una campaña publicitaria televisiva importante. La web también presenta nuevas y emocionantes oportunidades para que las empresas perfilen a sus clientes. El espacio interactivo de Internet simplifica la capacidad de una empresa para rastrear, almacenar y analizar datos sobre la demografía, las preferencias personales y el comportamiento en línea de un cliente. Estos datos permiten al anunciante proporcionar una experiencia publicitaria más personalizada y relevante para el cliente
         </v-card-text>        
       </v-card>
-    </v-flex>
+    </v-flex> -->
 
     <v-flex xs12 md4 py-2>
       <v-card height="300">
@@ -27,7 +28,7 @@
           Search Engine Optimization
           </v-card-title>
         <v-card-text class="subheading">
-           Es la práctica de utilizar un rango de técnicas, incluidas la reescritura del código html, la edición de contenidos, la navegación en el site, campañas de enlaces y más acciones, con el fin de mejorar la posición de un website en los resultados de los buscadores para unos términos de búsqueda concretos.
+           La optimización de motores de búsqueda (SEO) es la práctica de optimizar el contenido del sitio web de tal manera que su sitio web de cliente se clasifique antes que nada en los motores de búsqueda en una palabra clave deseada y relevante. Un sitio web que está optimizado perfectamente de acuerdo con los algoritmos ofrece una mejor oportunidad para que la empresa atraiga visitantes y clientes de calidad y relevantes a su marca.
         </v-card-text>        
       </v-card>
     </v-flex>
