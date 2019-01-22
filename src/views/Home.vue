@@ -6,8 +6,8 @@
     </v-flex>
 
 
-    <!-- <v-flex xs12 md4 py-2>
-      <v-card height="300">
+    <v-flex xs12 md4 py-2>
+      <v-card height="600">
         <v-card-actions>
           <v-btn block class="info headline" to="/marketing"> Marketing Digital</v-btn>
         </v-card-actions>
@@ -17,10 +17,10 @@
           Se refiere a una amplia categoría de publicidad que toma muchas formas diferentes, pero generalmente involucra cualquier actividad de marketing realizada en línea. Los mercadólogos han cambiado sus esfuerzos en línea porque tiende a ser significativamente menos costoso. Muchos espacios publicitarios en línea son de uso gratuito. Las empresas pueden subir videos a Youtube o iniciar un blog sin costo alguno. Otros medios como los sitios web oficiales o el marketing de búsqueda pagado cuestan una fracción de lo que costaría una campaña publicitaria televisiva importante. La web también presenta nuevas y emocionantes oportunidades para que las empresas perfilen a sus clientes. El espacio interactivo de Internet simplifica la capacidad de una empresa para rastrear, almacenar y analizar datos sobre la demografía, las preferencias personales y el comportamiento en línea de un cliente. Estos datos permiten al anunciante proporcionar una experiencia publicitaria más personalizada y relevante para el cliente
         </v-card-text>        
       </v-card>
-    </v-flex> -->
+    </v-flex>
 
     <v-flex xs12 md4 py-2>
-      <v-card height="300">
+      <v-card height="600">
         <v-card-actions>
           <v-btn block class="warning headline"> SEO </v-btn>
         </v-card-actions>
@@ -34,7 +34,7 @@
     </v-flex>
 
     <v-flex xs12 md4 py-2>
-      <v-card height="300">
+      <v-card height="600">
         <v-card-actions>
           <v-btn block class="success headline"> SEM </v-btn>
         </v-card-actions>
