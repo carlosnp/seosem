@@ -6,7 +6,7 @@
 					<v-layout align-center justify-center row fill-height>
             
             <v-flex xs6>
-              <v-card width="100%" height="500" color="light-blue darken-4 ">
+              <v-card width="100%" height="500" color="light-blue darken-4">
                 <v-card-text class="headline text-uppercase px-4 font-weight-bold">
                   <div class="titulos"> {{ item.title }} </div>
                 </v-card-text>
@@ -19,6 +19,7 @@
                   <div class="headline text-sm-left"> {{ tem.name }} </div>
                   <div class="headline text-sm-left pl-3"> {{ tem.subname }} </div>
                   <div class="cyan--text headline px-3 text-sm-left"> {{ tem.content }} </div>
+                  <div class="yellow--text headline px-4 text-sm-left"> {{ tem.example }} </div>
                 </v-card-text>
               </v-card>
             </v-flex>
