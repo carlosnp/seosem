@@ -1,15 +1,33 @@
 <template>
-    <div class='visually_embed'>
-        <img class='visually_embed_infographic' src='https://visual.ly/node/image/150315?_w=540' alt='The Internet In Real Time' />
-        <div class='visually_embed_cycle'></div>
-        <p> From <a href='https://visual.ly?utm_source=content-embed&utm_medium=embed'>Visually</a>.</p>
-    </div>
+		<v-layout row wrap>
+			<v-flex xs10>
+				<v-img src="seo.jpg"></v-img>
+			</v-flex>
+			<v-flex xs2>
+				<div class="display-1 py-4 px-1">
+				El SEO o tráfico orgánico es el arte o metodología de preparar una web para que sea más comprensible y relevante para los motores de búsqueda
+				</div>
+			</v-flex>
+      <v-flex xs12 class="font-light-italic py-4 blue lighten-2" tag="h1">
+				<div class="text-xs-center text-uppercase">SEO (Search Engine Optimization)</div>
+				<div class="text-xs-center">posicionamiento natural en buscadores</div>
+      </v-flex>
+			<v-flex xs12>
+				<seo></seo>
+			</v-flex>
+		</v-layout>
 </template>
 
-<script 
-type='text/javascript' 
-src='https://a.visual.ly/api/embed/150315?width=540' 
-class='visually_embed_script' 
-id='visually_embed_script_150315'
->
+<script>
+	import seo from '../components/seob.vue'
+	export default {
+		data() {
+			return {
+				seo: ['keywords research', 'links building', 'sitemap optimization', 'software develoment', 'web desing', 'feedback', 'strategy', 'social network', 'content', 'traffic monitoring', 'ranking']
+			}
+		},
+		components: {
+			seo: seo
+		}
+	}
 </script>

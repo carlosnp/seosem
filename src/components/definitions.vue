@@ -1,25 +1,25 @@
 <template>
-	<v-container>
-	  <v-layout row wrap>
-			<v-carousel class="text-md-center" interval="20000" hide-delimiters>
-				<v-carousel-item v-for="item in mark" :key="item.text" :src="item.text" >
-					<v-layout align-center justify-center row fill-height>
-						<v-card flat color="blue-green darken-1" class="white--text" height="500" width="100%">
-							<v-card-title> 
-								<div class="headline pt-3 px-2"> {{ item.time }} </div>
-							</v-card-title>
-							<v-card-text>
-								<v-layout align-center column fill-height>
-									<div class="display-2 px-5 titulos"> "{{ item.text }}" </div>
-									<div class="blue--text headline pl-3"> {{ item.autor }} </div> 
-								</v-layout> 
-							</v-card-text>
-						</v-card>
-					</v-layout>
-				</v-carousel-item>
-			</v-carousel>
-	  </v-layout>
-	</v-container>
+
+	<v-layout row wrap>
+		<v-carousel class="text-md-center" interval="20000" hide-delimiters>
+			<v-carousel-item v-for="item in mark" :key="item.text" :src="item.text" >
+				<v-layout align-center justify-center row fill-height>
+					<v-card flat color="blue-green darken-1" class="white--text" height="500" width="100%">
+						<v-card-title> 
+							<div class="headline pt-3 px-2"> {{ item.time }} </div>
+						</v-card-title>
+						<v-card-text>
+						<v-layout align-center column fill-height>
+							<div class="display-2 px-5 titulos"> "{{ item.text }}" </div>
+							<div class="blue--text headline pl-3"> {{ item.autor }} </div> 
+						</v-layout> 
+						</v-card-text>
+					</v-card>
+				</v-layout>
+			</v-carousel-item>
+		</v-carousel>
+	</v-layout>
+
 </template>
 
 <script>

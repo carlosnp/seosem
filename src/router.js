@@ -1,10 +1,11 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
-import About from './views/About.vue'
+import sem from './views/sem.vue'
+import seo from './views/seo.vue'
 import marketing from './views/marketing.vue'
 import seosem from './views/seosem.vue'
-import begin from './components/definitions.vue'
+
 
 Vue.use(Router)
 
@@ -18,9 +19,14 @@ export default new Router({
       component: Home
     },
     {
-      path: '/about',
-      name: 'about',
-      component: About
+      path: '/seo',
+      name: 'seo',
+      component: seo
+    },
+    {
+      path: '/sem',
+      name: 'sem',
+      component: sem
     },
     {
       path: '/marketing',
@@ -28,14 +34,9 @@ export default new Router({
       component: marketing
     },
     {
-      path: '/begin',
-      name: 'begin',
-      component: begin
-    },
-    {
       path: '/seosem',
       name: 'seosem',
       component: seosem
-    }
+    },
   ]
 })

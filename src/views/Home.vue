@@ -32,7 +32,7 @@
     <v-flex xs12 md4 py-2>
       <v-card height="600">
         <v-card-actions>
-          <v-btn block class="warning headline"> SEO </v-btn>
+          <v-btn block class="warning headline" to="/seo"> SEO </v-btn>
         </v-card-actions>
         <v-card-title class="title text-xs-center font-weight-black">
           Search Engine Optimization
@@ -46,7 +46,7 @@
     <v-flex xs12 md4 py-2>
       <v-card height="600">
         <v-card-actions>
-          <v-btn block class="success headline"> SEM </v-btn>
+          <v-btn block class="success headline" to="/sem"> SEM </v-btn>
         </v-card-actions>
         <v-card-title class="title text-xs-center font-weight-black">
           Seach Engine Marketing

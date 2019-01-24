@@ -1,34 +1,33 @@
 <template>
-  <v-container grid-list-xs>
-    <v-layout row wrap>
-			<v-carousel class="text-md-center" interval="20000" hide-delimiters>
-				<v-carousel-item v-for="item in questions" :key="item.content" :src="item.title" >
-					<v-layout align-center justify-center row fill-height>
-            
-            <v-flex xs6>
-              <v-card width="100%" height="500" color="light-blue darken-4">
-                <v-card-text class="headline text-uppercase px-4 font-weight-bold">
-                  <div class="titulos"> {{ item.title }} </div>
-                </v-card-text>
-              </v-card>
-            </v-flex>
-            
-            <v-flex xs6>
-              <v-card height="500" width="100%" color="grey darken-4">
-                <v-card-text v-for="tem in (item.list)" :key="tem.name">
-                  <div class="headline text-sm-left"> {{ tem.name }} </div>
-                  <div class="headline text-sm-left pl-3"> {{ tem.subname }} </div>
-                  <div class="cyan--text headline px-3 text-sm-left"> {{ tem.content }} </div>
-                  <div class="yellow--text headline px-4 text-sm-left"> {{ tem.example }} </div>
-                </v-card-text>
-              </v-card>
-            </v-flex>
 
-					</v-layout>
-				</v-carousel-item>
-			</v-carousel>
-    </v-layout>
-  </v-container>
+  <v-layout row wrap>
+    <v-carousel class="text-md-center" interval="20000" hide-delimiters>
+      <v-carousel-item v-for="item in questions" :key="item.content" :src="item.title" >
+        <v-layout align-center justify-center row fill-height>
+
+          <v-flex xs6>
+            <v-card width="100%" height="500" color="light-blue darken-4">
+              <v-card-text class="display-1 text-uppercase px-4 font-weight-bold">
+                <div class="titulos"> {{ item.title }} </div>
+              </v-card-text>
+            </v-card>
+          </v-flex>
+
+          <v-flex xs6>
+            <v-card height="500" width="100%" color="grey darken-4">
+              <v-card-text v-for="tem in (item.list)" :key="tem.name">
+               <div class="headline text-sm-left"> {{ tem.name }} </div>
+               <div class="headline text-sm-left pl-3"> {{ tem.subname }} </div>
+               <div class="cyan--text headline px-3 text-sm-left"> {{ tem.content }} </div>
+               <div class="yellow--text headline px-4 text-sm-left"> {{ tem.example }} </div>
+              </v-card-text>
+            </v-card>
+          </v-flex>
+
+        </v-layout>
+      </v-carousel-item>
+    </v-carousel>
+  </v-layout>
 </template>
 
 <script>

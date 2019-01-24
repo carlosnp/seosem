@@ -7,8 +7,8 @@
       <v-icon>home</v-icon>
       </v-btn>
       <v-btn flat to="/marketing">Marketing</v-btn>
-      <v-btn flat>SEO</v-btn>
-      <v-btn flat>SEM</v-btn>
+      <v-btn flat to="/seo">SEO</v-btn>
+      <v-btn flat to="/sem">SEM</v-btn>
     </v-toolbar-items>
     <v-spacer></v-spacer>
   </v-toolbar>
