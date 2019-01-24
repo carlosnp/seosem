@@ -1,3 +1,5 @@
 module.exports = {
-	publicPath: '<seosem>'
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/seosem/'
+    : '/'
 }
