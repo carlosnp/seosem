@@ -1,12 +1,12 @@
 <template>
 
     <v-layout row wrap>
-			<v-carousel class="text-md-center" interval="20000" hide-delimiters>
+			<v-carousel class="text-md-center" interval="20000" hide-delimiters height="550">
 				<v-carousel-item v-for="item in seo" :key="item.title1" :src="item.title1">
 					<v-layout align-center justify-center row fill-height>
             
             <v-flex xs6>
-              <v-card width="100%" height="500" color="grey darken-2">
+              <v-card width="100%" height="550" color="grey darken-2">
                 <v-card-title class="px-4 font-weight-bold">
                   <div class="display-1 text-uppercase"> {{ item.title1 }} </div>
                   <v-icon>arrow_right</v-icon>
@@ -23,7 +23,7 @@
             </v-flex>
             
             <v-flex xs6>
-              <v-card height="500" width="100%" color="grey darken-4">
+              <v-card height="550" width="100%" color="grey darken-4">
                 <v-card-title class="px-4 font-weight-bold">
                   <div class="display-1 text-uppercase"> {{ item.title2 }} </div>
                   <v-icon>arrow_right</v-icon>

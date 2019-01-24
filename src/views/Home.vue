@@ -38,7 +38,9 @@
           Search Engine Optimization
           </v-card-title>
         <v-card-text class="subheading">
+          <p>
            La optimización de motores de búsqueda (SEO) es la práctica de optimizar el contenido del sitio web de tal manera que su sitio web de cliente se clasifique antes que nada en los motores de búsqueda en una palabra clave deseada y relevante. Un sitio web que está optimizado perfectamente de acuerdo con los algoritmos ofrece una mejor oportunidad para que la empresa atraiga visitantes y clientes de calidad y relevantes a su marca.
+          </p>
         </v-card-text>        
       </v-card>
     </v-flex>
@@ -52,7 +54,9 @@
           Seach Engine Marketing
           </v-card-title>
         <v-card-text class="subheading">
+          <p>
           Es el uso de herramientas y estrategias que nos ayudan a optimizar la visibilidad y a aumentar la accesibilidad de los sitios y páginas web gracias a los motores de los buscadores. Son además los propios buscadores quien muchas veces nos ofrecen esas herramientas para publicitarnos en sus medios de búsqueda.
+          </p>
         </v-card-text>        
       </v-card>
     </v-flex>
