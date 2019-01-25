@@ -29,13 +29,13 @@ export default {
         {
           title:'la tecnología a cambiado al mundo',
           content:'',
-          src: './home/comunicacion-digital.jpg',
+          src: './home/comunicacion_digital.jpg',
           auth: ''
         },
         {
           title:'La era digital ha transformado el mundo de la comunicación.',
           content:'',
-          src: './home/New-Media-Timeline-e1455890319643.jpg',
+          src: './home/New_Media_Timeline.jpg',
           auth: ''
         },
         {
@@ -58,7 +58,7 @@ export default {
         {
           title: 'Nuevas Reglas del Juego: La tecnología se democratiza',
           content: '',
-          src: './home/Holiday-Devices-K6-12.png',
+          src: './home/Devices.png',
           auth: ''
         }
       ]
