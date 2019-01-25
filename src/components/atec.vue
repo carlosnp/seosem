@@ -29,13 +29,13 @@ export default {
         {
           title:'la tecnología a cambiado al mundo',
           content:'',
-          src: 'comunicacion-digital.jpg',
+          src: './home/comunicacion-digital.jpg',
           auth: ''
         },
         {
           title:'La era digital ha transformado el mundo de la comunicación.',
           content:'',
-          src: 'New-Media-Timeline-e1455890319643.jpg',
+          src: './home/New-Media-Timeline-e1455890319643.jpg',
           auth: ''
         },
         {
@@ -46,19 +46,19 @@ export default {
         {
           title: 'Nuevas Reglas del Juego: Transparencia',
           content: '',
-          src:'transparencia.jpg',
+          src:'./home/transparencia.jpg',
           auth: ''
         },
         {
           title: 'Nuevas Reglas del Juego: Six Degrees: The Science of a Connected Age',
           content: 'Asegura que es posible acceder a cualquier persona del planeta en tan sólo seis “saltos”.',
-          src:'seisgrados.jpeg',
+          src:'./home/seisgrados.jpeg',
           auth:'Duncan Watts (socialogo)'
         },
         {
           title: 'Nuevas Reglas del Juego: La tecnología se democratiza',
           content: '',
-          src: 'Holiday-Devices-K6-12.png',
+          src: './home/Holiday-Devices-K6-12.png',
           auth: ''
         }
       ]

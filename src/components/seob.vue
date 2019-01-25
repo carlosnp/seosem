@@ -60,7 +60,7 @@
           {
             title1: 'Metodologia SEO',
             title2: 'Factores SEO',
-            src1: '../../public/metodologia.jpg',
+            src1: './seo/metodologia.jpg',
             src2: './seo/seotipos.jpg'
           },
           {
