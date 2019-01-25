@@ -1,7 +1,7 @@
 <template>
 		<v-layout row wrap>
 			<v-flex xs10>
-				<v-img src="seo.jpg"></v-img>
+				<v-img src="../../public/seo.jpg"></v-img>
 			</v-flex>
 			<v-flex xs2>
 				<div class="display-1 py-4 px-1">
