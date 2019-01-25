@@ -2,6 +2,7 @@
 		<v-layout row wrap>
 			<v-flex xs10>
 				<v-img src="./seo/seo.jpg"></v-img>
+				<!-- <img src="../../public/seo/seo.jpg"> -->
 			</v-flex>
 			<v-flex xs2>
 				<div class="display-1 py-4 px-1">
