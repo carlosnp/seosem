@@ -55,14 +55,14 @@
           {
             title1: 'Marketing en buscadores',
             title2: 'Buscadores en Venezuela',
-            src1: './seo/statsword.png',
-            src2: './seo/stastve.png'
+            src1: require('../assets/seo/statsword.png'),
+            src2: require('../assets/seo/stastve.png')
           },
           {
             title1: 'Metodologia SEO',
             title2: 'Factores SEO',
-            src1: './seo/metodologia.jpg',
-            src2: './seo/seotipos.jpg'
+            src1: require('../assets/seo/metodologia.jpg'),
+            src2: require('../assets/seo/seotipos.jpg')
           },
           {
             title1: 'Seo',
