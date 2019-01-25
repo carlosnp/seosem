@@ -1,7 +1,7 @@
 <template>
 		<v-layout row wrap>
 			<v-flex xs10>
-				<v-img src="./seo/seo.jpg" contain></v-img>
+				<v-img :src="require('../assets/seo/seos.jpg')" contain></v-img>
 			</v-flex>
 			<v-flex xs2>
 				<div class="headline py-4 px-1">
