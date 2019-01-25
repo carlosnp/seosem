@@ -55,13 +55,13 @@
           {
             title1: 'Marketing en buscadores',
             title2: 'Estrategia Conjunta SEO y SEM',
-            src1: '../../public/marketingdigital.npg'
+            src1: './seo/marketingdigital.npg'
           },
           {
             title1: 'Metodologia SEO',
             title2: 'Factores SEO',
             src1: '../../public/metodologia.jpg',
-            src2: '../../public/seotipos.jpg'
+            src2: './seo/seotipos.jpg'
           },
           {
             title1: 'Seo',

@@ -42,35 +42,35 @@
 						title: 'qué',
 						content:'producto a vender',
 						icons: 'tag_faces',
-						src: 'que.jpg'
+						src: './marketing/que.jpg'
 					},
 					{
 						title: 'quién',
 						content:'público suceptible',
 						src: 'grupos.jpeg',
-						icons: 'group',
+						icons: './marketing/group',
 					},
 					{
 						title: 'cómo',
 						content:'medios que se utilizarán',
-						src: 'redessociales.png'
+						src: './marketing/redessociales.png'
 					},
 					{
 						title: 'dónde',
 						content:'',
 						icons: 'location_city',
-						src: 'donde.jpeg'
+						src: './marketing/donde.jpeg'
 					},
 					{
 						title: 'cuándo',
 						content:'periodo de tiempo',
 						src: 'tiempo.jpeg',
-						icons: 'timelapse',
+						icons: './marketing/timelapse',
 					},
 					{
 						title: 'por qué',
 						content:'el producto es interesante, caracteristicas, diferencias',
-						src: 'porque.jpeg'
+						src: './marketing/porque.jpeg'
 					},
 				],
 			}
