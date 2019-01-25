@@ -4,7 +4,7 @@
 			<v-carousel class="text-md-center" interval="20000" hide-delimiters height="550">
 				<v-carousel-item v-for="item in seo" :key="item.title1" :src="item.title1">
 					<v-layout align-center justify-center row fill-height>
-            
+
             <v-flex xs6>
               <v-card width="100%" height="550" color="grey darken-2">
                 <v-card-title class="px-4 font-weight-bold">
@@ -54,8 +54,9 @@
         seo: [
           {
             title1: 'Marketing en buscadores',
-            title2: 'Estrategia Conjunta SEO y SEM',
-            src1: './seo/marketingdigital.npg'
+            title2: 'Buscadores en Venezuela',
+            src1: './seo/statsword.png',
+            src2: './seo/stastve.png'
           },
           {
             title1: 'Metodologia SEO',

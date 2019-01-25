@@ -9,10 +9,11 @@
               <v-card-text>
                 <v-layout align-center column fill-height>
                   <div class="display-2"> {{ item.content }} </div>
-                  <img :src="item.src" alt="" width="1000"> 
+                  <!-- <img :src="item.src" alt="" width="1000">  -->
                   <div class="blue--text headline"> {{ item.auth }} </div>
                 </v-layout> 
               </v-card-text>
+              <v-card-media contain :src="item.src" height="500px"></v-card-media>
             </v-card>
           </v-layout>
         </v-carousel-item>
