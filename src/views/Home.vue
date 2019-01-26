@@ -11,7 +11,7 @@
 
 
     <v-flex xs12 md4 py-2>
-      <v-card height="670">
+      <v-card height="700">
         <v-card-actions>
           <v-btn block class="info headline" to="/marketing"> Marketing Digital</v-btn>
         </v-card-actions>
@@ -30,7 +30,7 @@
     </v-flex>
 
     <v-flex xs12 md4 py-2>
-      <v-card height="600">
+      <v-card height="700">
         <v-card-actions>
           <v-btn block class="warning headline" to="/seo"> SEO </v-btn>
         </v-card-actions>
@@ -46,7 +46,7 @@
     </v-flex>
 
     <v-flex xs12 md4 py-2>
-      <v-card height="600">
+      <v-card height="700">
         <v-card-actions>
           <v-btn block class="success headline" to="/sem"> SEM </v-btn>
         </v-card-actions>
@@ -61,15 +61,24 @@
       </v-card>
     </v-flex>
 
+    <v-flex xs12 py-2 class="display-1 font-weight-black text-uppercase text-xs-center">
+      Diferencias entre SEO y SEM
+    </v-flex>
+    <v-flex xs12>
+      <diferencias></diferencias>
+    </v-flex>
+
   </v-layout>
 </template>
 
 <script>
 import atec from '../components/atec.vue'
+import tableseosem from '../components/tableseosem.vue'
 
   export default {
     components: {
-      diapositiva: atec
+      diapositiva: atec,
+      diferencias: tableseosem
     },
     data() {
       return {
