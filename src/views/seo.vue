@@ -1,10 +1,10 @@
 <template>
 		<v-layout row wrap>
-			<v-flex xs10>
+			<v-flex xs12>
 				<v-img :src="require('../assets/seo/seo.jpg')" contain></v-img>
 			</v-flex>
-			<v-flex xs2>
-				<div class="headline py-4 px-1">
+			<v-flex xs12>
+				<div class="headline py-4 px-1 text-xs-center">
 				El SEO o tráfico orgánico es el arte o metodología de preparar una web para que sea más comprensible y relevante para los motores de búsqueda
 				</div>
 			</v-flex>

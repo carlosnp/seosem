@@ -1,30 +1,29 @@
 <template>
 	<v-container>
-	  <div>
-	    <v-data-table
-	      :headers="headers"
-	      :items="desserts"
-	      :search="search"
-	      :pagination.sync="pagination"
-	      class="elevation-1"
-	      hide-actions
-	    >
-	      <template slot="items" slot-scope="props">
-	        <td width="20%" class="blue darken-4"> 
-	        	<div class="text-uppercase white--text" id="title"> {{ props.item.title }} </div>
-	        </td>
-	        <td class="text-xs-right light-green accent-1" width="40%">
-	        	<div class="text-xs-left" id="item"> {{ props.item.seo }} </div>
-	        </td>
-	        <td class="text-xs-right blue-grey lighten-5" width="40%">
-	        	<div class="text-xs-left" id="item"> {{ props.item.sem }} </div>
-	        </td>
-	      </template>
-	    </v-data-table>
-	    <div class="text-xs-center pt-2">
-	      <v-pagination v-model="pagination.page" :length="pages" circle></v-pagination>
-	    </div>
-	  </div>
+		<div>
+			<v-data-table 
+			:headers="headers" 
+			:items="desserts" 
+			:search="search" 
+			:pagination.sync="pagination" 
+			class="elevation-1" 
+			hide-actions>
+				<template slot="items" slot-scope="props">
+					<td width="20%" class="blue darken-4"> 
+						<div class="text-uppercase white--text" id="title"> {{ props.item.title }} </div>
+					</td>
+					<td class="text-xs-right light-green accent-1" width="40%">
+						<div class="text-xs-left" id="item"> {{ props.item.seo }} </div>
+					</td>
+					<td class="text-xs-right blue-grey lighten-5" width="40%">
+						<div class="text-xs-left" id="item"> {{ props.item.sem }} </div>
+					</td>
+				</template>
+			</v-data-table>
+			<div class="text-xs-center pt-2">
+				<v-pagination v-model="pagination.page" :length="pages" circle></v-pagination>
+			</div>
+		</div>
 	</v-container>
 </template>
 
