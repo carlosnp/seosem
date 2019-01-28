@@ -30,13 +30,13 @@ export default {
         {
           title:'la tecnología a cambiado al mundo',
           content:'',
-          src: require('../assets/home/comunicacion_digital.jpg'),
+          src: require('../../assets/home/comunicacion_digital.jpg'),
           auth: ''
         },
         {
           title:'La era digital ha transformado el mundo de la comunicación.',
           content:'',
-          src: require('../assets/home/New_Media_Timeline.jpg'),
+          src: require('../../assets/home/New_Media_Timeline.jpg'),
           auth: ''
         },
         {
@@ -47,19 +47,19 @@ export default {
         {
           title: 'Nuevas Reglas del Juego: Transparencia',
           content: '',
-          src: require('../assets/home/transparencia.jpg'),
+          src: require('../../assets/home/transparencia.jpg'),
           auth: ''
         },
         {
           title: 'Nuevas Reglas del Juego: Six Degrees: The Science of a Connected Age',
           content: 'Asegura que es posible acceder a cualquier persona del planeta en tan sólo seis “saltos”.',
-          src: require('../assets/home/seisgrados.jpeg'),
+          src: require('../../assets/home/seisgrados.jpeg'),
           auth:'Duncan Watts (socialogo)'
         },
         {
           title: 'Nuevas Reglas del Juego: La tecnología se democratiza',
           content: '',
-          src: require('../assets/home/Devices.png'),
+          src: require('../../assets/home/Devices.png'),
           auth: ''
         }
       ]

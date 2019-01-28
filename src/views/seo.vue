@@ -19,7 +19,7 @@
 </template>
 
 <script>
-	import seo from '../components/seob.vue'
+	import seo from '../components/seo/seob.vue'
 	export default {
 		data() {
 			return {

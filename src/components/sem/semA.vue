@@ -42,8 +42,13 @@
 				sem: [
 					{
 						title: 'SEM',
-						content: 'Hola',
-						src: require('../assets/seo/statsword.png'),
+						content: '',
+						src: require('../../assets/sem/hotelesseo1.png'),
+					},
+					{
+						title: 'SEM',
+						content: '',
+						src: require('../../assets/sem/hotelesseo2.png'),
 					},
 					{
 						title: 'SEM',

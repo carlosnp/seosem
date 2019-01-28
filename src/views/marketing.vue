@@ -31,9 +31,9 @@
 
 <script>
 
-import begin from '../components/beginmarketin.vue'
-import definition from '../components/definitions.vue'
-import question from '../components/questions.vue'
+import begin from '../components/marketing/beginmarketin.vue'
+import definition from '../components/marketing/definitions.vue'
+import question from '../components/marketing/questions.vue'
 
 	export default {
 		components: {

@@ -65,7 +65,7 @@
 </template>
 
 <script>
-import atec from '../components/atec.vue'
+import atec from '../components/home/atec.vue'
 
   export default {
     components: {

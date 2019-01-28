@@ -17,8 +17,8 @@
 </template>
 
 <script>
-		import sem from '../components/semA.vue'
-		import tableseosem from '../components/tableseosem.vue'
+		import sem from '../components/sem/semA.vue'
+		import tableseosem from '../components/sem/tableseosem.vue'
 		export default {
 			data() {
 				return {

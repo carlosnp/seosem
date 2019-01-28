@@ -9,8 +9,8 @@
 </template>
 
 <script>
-import navbar from './components/navbar.vue'
-import foot from './components/footerseo.vue'
+import navbar from './components/navbar/navbar.vue'
+import foot from './components/navbar/footerseo.vue'
 
 export default {
   name: 'App',
