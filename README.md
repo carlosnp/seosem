@@ -1,5 +1,8 @@
 # seosem
 
+## Repositorio
+git clone https://github.com/carlosnp/seosem.git
+
 ## Project setup
 ```
 npm install
